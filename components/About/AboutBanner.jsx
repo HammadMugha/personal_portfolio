@@ -14,7 +14,7 @@ export default function AboutBanner() {
     >
       <Container>
         <div className="grid sm:grid-cols-2 gap-[30px] items-center">
-          <div className="col min-h-[300px]">
+          <div className="col min-h-[300px] order-2 sm:order-1">
             <div className="relative">
               <Image
                 src="/ne.jpg"
@@ -24,7 +24,7 @@ export default function AboutBanner() {
               />
             </div>
           </div>
-          <div className="col sm:text-left text-center">
+          <div className="col sm:text-left text-center order-1 sm:order-2">
             <h2 className="text-green sm:text-[60px] text-[25px] font-bold sm:leading-[65px]">
               Hi, I'm Hammad <br /> Mughal
             </h2>

@@ -16,7 +16,7 @@ export default function Skill() {
                 <h3 className="text-[15px] mb-3 font-medium tetx-black">
                   {item.title}
                 </h3>
-                <div className="flex items-center gap-[20px]">
+                <div className="flex items-center gap-[20px] flex-wrap">
                   {item.languages.map((item, i) => (
                     <div
                       key={i}
